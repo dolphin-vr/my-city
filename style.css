@@ -1,17 +1,17 @@
-html{
+html {
    height: 100%;
    width: 100%;
 }
 
-body{   
-font-family: 'Montserrat', sans-serif;
-margin: 0;
-height: 100%;
-width: 100%;
+body {
+   font-family: "Montserrat", sans-serif;
+   margin: 0;
+   height: 100%;
+   width: 100%;
 }
 
-.city-title{
-   color: #1B1D1F;
+.city-title {
+   color: #1b1d1f;
    font-size: 44px;
    font-weight: 600;
    line-height: 48px;
@@ -19,22 +19,22 @@ width: 100%;
    margin-top: 0;
 }
 
-.city-descr{
-   color: #1B1D1F;
+.city-descr {
+   color: #1b1d1f;
    font-size: 16px;
    font-weight: 400;
    line-height: 24px;
 }
 
-.city-page{
-   background-image: url('./img/background.jpg');
+.city-page {
+   background-image: url("img/background.jpg");
    background-size: cover;
    background-attachment: fixed;
    height: 100%;
    width: 100%;
 }
 
-.wrapper{
+.wrapper {
    width: 1170px;
    height: 100%;
    margin: auto;
@@ -43,14 +43,13 @@ width: 100%;
    position: relative;
 }
 
-.goit-logo{
+.goit-logo {
    position: absolute;
    left: 0;
    top: 32px;
-
 }
 
-.city-text-container{
+.city-text-container {
    border-radius: 40px;
    background-color: #fff;
    padding: 60px;
@@ -58,6 +57,38 @@ width: 100%;
    width: 573px;
 }
 
-.city-galery{
-   height: 600px;
+.city-gallery {
+   padding: 100px;
+   text-align: center;
+   box-sizing: border-box;
+}
+
+.city-city-gallery {
+   color: #1b1d1f;
+   font-size: 44px;
+   font-weight: 600;
+   line-height: 48px;
+   margin-bottom: 80px;
+   margin-top: 0;
+}
+
+.gallery {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.gallery-button {
+   width: calc((100% - 72px) / 4);
+   margin-bottom: 24px;
+   border: none;
+   background: none;
+   cursor: pointer;
+   border-radius: 48px;
+   padding: 0;
+}
+
+.gallery-img {
+   width: 100%;
+   border-radius: 48px;
 }
